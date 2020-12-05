@@ -1,0 +1,65 @@
+# refresh the configuration
+# $ xbindkeys -f ~/.xbindkeysrc
+#
+# Solely bind Super_L + x doesn't work, need to add mode4+Super_L+x
+# https://bbs.archlinux.org/viewtopic.php?id=167925
+
+
+# Make copy/paste/select all/undo shortcut more consise
+"xvkbd -no-jump-pointer -xsendevent -text '\Cc'"
+mod4 + Super_L + c
+"xvkbd -no-jump-pointer -xsendevent -text '\Cv'"
+mod4 + Super_L + v
+"xvkbd -no-jump-pointer -xsendevent -text '\Cr'"
+mod4 + Super_L + r
+"xvkbd -no-jump-pointer -xsendevent -text '\Ca'"
+mod4 + Super_L + a
+"xvkbd -no-jump-pointer -xsendevent -text '\Cz'"
+mod4 + Super_L + z
+"xvkbd -no-jump-pointer -xsendevent -text '\Cw'"
+mod4 + Super_L + w
+"xvkbd -no-jump-pointer -xsendevent -text '\Cs'"
+mod4 + Super_L + s
+"xvkbd -no-jump-pointer -xsendevent -text '\Cq'"
+mod4 + Super_L + q
+
+# Only this one doesn't work, don't know why
+# "xvkbd -no-jump-pointer -xsendevent -text "\Ct""
+#"xvkbd -no-jump-pointer -xsendevent -text $(date +%Y-%m-%d)"
+# mod4 + Super_L + t
+
+# Rofi
+# "rofi -combi-modi window,drun -show combi -modi combi"
+# su + n
+# super_l + n
+
+"clipmenu"
+mod4 + Super_L + shift + p
+
+# Increase volume
+"amixer -D pulse sset Master 10%+"
+XF86AudioRaiseVolume
+
+"amixer -D pulse sset Master 20%-"
+XF86AudioLowerVolume
+
+"amixer -D pulse sset Master 0%"
+XF86AudioMute
+
+#XF86KbdBrightnessUp
+#XF86KbdBrightnessDown
+#
+"systemctl suspend"
+XF86PowerOff
+
+# "flameshot full -c -p ~/Pictures/screenshots"
+# F3
+
+"flameshot gui -p ~/Pictures/screenshots"
+F4
+
+"dmenuruni"
+mod4 + Super_L + p
+
+"bm"
+mod4 + Super_L + shift + b

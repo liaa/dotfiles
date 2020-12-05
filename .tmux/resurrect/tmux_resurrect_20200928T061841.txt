@@ -1,0 +1,66 @@
+pane	0	1	:knowledge	1	:*	1	:/home/liang	1	bash	:
+pane	Downloads	1	:knowledge	1	:*	1	:/home/liang/Downloads	0	nvim	:nvim
+pane	Downloads	1	:knowledge	1	:*	2	:/home/liang/Downloads	1	bash	:
+pane	_shared	1	:knowledge	0	:	1	:/home/liang/knowledge	0	nvim	:nvim
+pane	_shared	1	:knowledge	0	:	2	:/home/liang/knowledge	1	bash	:
+pane	_shared	2	:dotfiles	0	:	1	:/home/liang/dotfiles	0	nvim	:nvim
+pane	_shared	2	:dotfiles	0	:	2	:/home/liang/dotfiles	1	bash	:
+pane	_shared	3	:templates	0	:-	1	:/home/liang/templates	0	nvim	:nvim
+pane	_shared	3	:templates	0	:-	2	:/home/liang/templates	1	bash	:
+pane	_shared	4	:server	1	:*	1	:/home/liang	0	nvim	:nvim
+pane	_shared	4	:server	1	:*	2	:/home/liang	1	bash	:
+pane	admin	1	:code	1	:*	1	:/home/liang/workstream/workstream-admin	1	nvim	:nvim
+pane	admin	2	:server	0	:-	1	:/home/liang/workstream/workstream-admin	1	npm	:npm
+pane	admin	3	:deployment	0	:	1	:/home/liang/workstream/workstream-admin	1	bash	:
+pane	dotfiles	1	:code	1	:*	1	:/home/liang/dotfiles/bin	1	bash	:
+pane	eightpixel	1	:	0	:-	1	:/home/liang/liang/eightpixel	1	nvim	:nvim index.html
+pane	eightpixel	1	:	0	:-	2	:/home/liang/liang/eightpixel	0	nvim	:nvim index.css
+pane	eightpixel	2	:node	1	:*	1	:/home/liang/liang/eightpixel	1	bash	:
+pane	hr	1	:code	1	:*	1	:/home/liang/workstream/workstream-hr	1	nvim	:nvim
+pane	hr	2	:server	0	:-	1	:/home/liang/workstream/workstream-hr	1	npm	:npm
+pane	hr	3	:deployment	0	:	1	:/home/liang/workstream/workstream-hr	1	bash	:
+pane	hr	4	:bash	0	:	1	:/home/liang/workstream/workstream-hr	1	bash	:
+pane	jobs	1	:	1	:*	1	:/home/liang/workstream/workstream-jobs	1	nvim	:nvim
+pane	jobs	2	:server	0	:-	1	:/home/liang/workstream/workstream-jobs	1	bash	:
+pane	jobs	3	:deployment	0	:	1	:/home/liang/workstream/workstream-jobs	1	bash	:
+pane	jobs	4	:bash	0	:	1	:/home/liang/workstream/workstream-jobs	1	bash	:
+pane	liang	1	:	1	:*	1	:/home/liang	1	nvim	:nvim
+pane	liang	1	:	1	:*	2	:/home/liang	0	bash	:
+pane	signup	1	:code	1	:*	1	:/home/liang/workstream/workstream-signup	1	nvim	:nvim
+pane	signup	2	:server	0	:-	1	:/home/liang/workstream/workstream-signup	1	bash	:
+pane	signup	3	:deployment	0	:	1	:/home/liang/workstream/workstream-signup	1	bash	:
+pane	vimwiki	1	:	1	:*	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	vimwiki	2	:nvim	0	:-	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	wiki	1	:	1	:*	1	:/home/liang/wiki	1	nvim	:nvim
+pane	wiki	1	:	1	:*	2	:/home/liang/wiki	0	bash	:
+pane	workstream	1	:	1	:*	1	:/home/liang/workstream	0	bash	:
+pane	workstream	1	:	1	:*	2	:/home/liang/workstream	1	bash	:
+window	0	1	1	:*	659f,233x76,0,0,10
+window	Downloads	1	1	:*	504e,233x76,0,0{126x76,0,0,11,106x76,127,0,12}
+window	_shared	1	0	:	b30f,233x76,0,0{126x76,0,0,0,106x76,127,0,1}
+window	_shared	2	0	:	b312,233x76,0,0{126x76,0,0,2,106x76,127,0,3}
+window	_shared	3	0	:-	b315,233x76,0,0{126x76,0,0,4,106x76,127,0,5}
+window	_shared	4	1	:*	b318,233x76,0,0{126x76,0,0,6,106x76,127,0,7}
+window	admin	1	1	:*	6592,190x76,0,0,13
+window	admin	2	0	:-	6593,190x76,0,0,14
+window	admin	3	0	:	6594,190x76,0,0,15
+window	dotfiles	1	1	:*	65a5,233x76,0,0,16
+window	eightpixel	1	0	:-	3490,233x76,0,0{119x76,0,0,17,113x76,120,0,18}
+window	eightpixel	2	1	:*	65a8,233x76,0,0,19
+window	hr	1	1	:*	e58f,190x76,0,0,20
+window	hr	2	0	:-	e590,190x76,0,0,21
+window	hr	3	0	:	e591,190x76,0,0,22
+window	hr	4	0	:	e592,190x76,0,0,23
+window	jobs	1	1	:*	e5a3,233x76,0,0,24
+window	jobs	2	0	:-	e5a4,233x76,0,0,25
+window	jobs	3	0	:	e5a5,233x76,0,0,26
+window	jobs	4	0	:	e5a6,233x76,0,0,27
+window	liang	1	1	:*	5fb6,128x63,0,0{73x63,0,0,8,54x63,74,0,9}
+window	signup	1	1	:*	e5a7,233x76,0,0,28
+window	signup	2	0	:-	e5a8,233x76,0,0,29
+window	signup	3	0	:	65a0,233x76,0,0,30
+window	vimwiki	1	1	:*	65a1,233x76,0,0,31
+window	vimwiki	2	0	:-	65a2,233x76,0,0,32
+window	wiki	1	1	:*	5051,233x76,0,0{126x76,0,0,33,106x76,127,0,34}
+window	workstream	1	1	:*	5053,233x76,0,0{126x76,0,0,35,106x76,127,0,36}
+state	admin	hr
