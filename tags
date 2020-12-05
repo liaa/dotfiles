@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/18d822d2/
+create_session	bin/mx	/^create_session () {$/;"	f
+create_window	bin/mx	/^create_window () {$/;"	f
+down	bin/mc	/^down() { amixer -D pulse sset Master "$NUM"%- ; }$/;"	f
+get_session	bin/mx	/^get_session () {$/;"	f
+main	bin/mx	/^main () {$/;"	f
+mute	bin/mc	/^mute() { amixer -D pulse sset Master mute ; }$/;"	f
+setResolution	bin/res	/^setResolution() {$/;"	f
+toggle	bin/mc	/^toggle() { amixer -D pulse sset Master toggle ; }$/;"	f
+up	bin/mc	/^up() { amixer -D pulse sset Master "$NUM"%+ ; } $/;"	f

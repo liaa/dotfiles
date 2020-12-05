@@ -1,0 +1,18 @@
+#!/bin/bash
+
+createFile() {
+  filepath="$HOME/dotfiles/bin/$1"
+  echo $filepath
+  if [ -f $filepath ]; then
+    echo "file exists"
+  else
+    echo "create file"
+  fi 
+}
+
+main() {
+  filename=$1
+  createFile "$filename"
+}
+
+main $@;

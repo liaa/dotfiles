@@ -1,0 +1,6 @@
+#!/bin/bash
+VALUE="${1:-0.8}"
+xrandr --output eDP-1 --brightness $VALUE
+xrandr --output DP-1 --brightness $VALUE
+
+

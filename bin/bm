@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# add_bookmark() {
+#   echo 'add_bookmark'
+# }
+#
+# echo 'hello';
+
+declare -A g bmarray;
+
+while IFS=\| read -r guid date id url title tags;
+do
+  bookmark="$title "-" "$url" "-" "$tags"";
+  bmarray["$bookmark"]="$url";
+done < /home/liang/.bookmarks
+
+function load() {
+  while IFS=\| read -r guid date id url title tags;
+  do
+    bookmark="$title "-" "$url" "-" "$tags"";
+    printf "$bookmark\n";
+  done < /home/liang/.bookmarks
+}
+
+choice=$(load | dmenu -i -l 15 -p "Add/Open bookmark:")
+echo $choice
+case "$choice" in
+  Add) dmenu-bm-add.sh ;;
+  *) xdg-open ${bmarray[$choice]} ;;
+esac

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+xinput --set-prop bcm5974 "libinput Natural Scrolling Enabled" 1
+xinput --set-prop "Microsoft Microsoft® Nano Transceiver v1.0 Mouse" "libinput Natural Scrolling Enabled" 1

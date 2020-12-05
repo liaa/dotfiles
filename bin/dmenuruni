@@ -1,0 +1,19 @@
+#!/bin/sh
+# dmenu_run improved
+# if a command ends with "!", it is started in term.
+
+termcmd="st -e"
+test -s $HOME/.dmenurc && . $HOME/.dmenurc
+
+cmd="$(dmenu_path | dmenu $@)"
+cmdd="mx"
+case $cmd in
+    # cmd=htop!
+    # st -e htop     
+    *\! ) ${termcmd} "$(printf "%s" "${cmd}" | cut -d'!' -f1)";;
+    *\~ ) ${termcmd} nvim "$(printf "%s" "$(which ${cmd%?})")";;
+    * ) ${cmd} ;;
+esac
+exit
+
+

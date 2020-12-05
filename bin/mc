@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Let's Shell Script Together: Case statements, audio control and more 
+# video https://www.youtube.com/watch?v=zrUW14L_uqE
+
+NUM="${2:-20}"
+
+toggle() { amixer -D pulse sset Master toggle ; }
+
+mute() { amixer -D pulse sset Master mute ; }
+
+up() { amixer -D pulse sset Master "$NUM"%+ ; } 
+
+down() { amixer -D pulse sset Master "$NUM"%- ; }
+
+case "$1" in
+  toggle) toggle ;;
+  mute) mute ;;
+  up) up ;;
+  down) down ;;
+esac >/dev/null

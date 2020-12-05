@@ -1,0 +1,14 @@
+#!/bin/bash
+
+setResolution() {
+  xrandr --output eDP-1 --mode "$1" ;
+}
+
+case "$1" in
+  sm) setResolution 1280x800 ;;
+  md) setResolution 1440x900 ;;
+  lg) setResolution 1920x1200 ;;
+  xlg) setResolution 2560x1600 ;;
+  xxlg) setResolution 2560x1080 ;;
+esac >/dev/null
+
