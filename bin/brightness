@@ -1,5 +1,5 @@
 #!/bin/bash
-VALUE="${1:-0.8}"
+VALUE=$(echo "scale=1; ${1:-6} / 10 " | bc)
 xrandr --output eDP-1 --brightness $VALUE
 xrandr --output DP-1 --brightness $VALUE
 

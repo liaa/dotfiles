@@ -1,0 +1,25 @@
+pane	_shared	1	:knowledge	0	:	1	:/home/liang	0	bash	:
+pane	_shared	1	:knowledge	0	:	2	:/home/liang	1	bash	:
+pane	_shared	2	:dotfiles	0	:	1	:/home/liang/dotfiles	0	nvim	:nvim
+pane	_shared	2	:dotfiles	0	:	2	:/home/liang/dotfiles	1	bash	:
+pane	_shared	3	:vimwiki	0	:	1	:/home/liang/vimwiki	0	nvim	:nvim
+pane	_shared	3	:vimwiki	0	:	2	:/home/liang/vimwiki	1	bash	:
+pane	_shared	4	:templates	0	:-	1	:/home/liang	0	nvim	:nvim
+pane	_shared	4	:templates	0	:-	2	:/home/liang	1	bash	:
+pane	_shared	5	:server	1	:*	1	:/home/liang	0	nvim	:nvim
+pane	_shared	5	:server	1	:*	2	:/home/liang	1	bash	:
+pane	vimwiki	1	:	0	:	1	:/home/liang/vimwiki	0	nvim	:nvim
+pane	vimwiki	1	:	0	:	2	:/home/liang/vimwiki	1	bash	:
+pane	vimwiki	8	:vimwiki	0	:-	1	:/home/liang/vimwiki	0	nvim	:nvim
+pane	vimwiki	8	:vimwiki	0	:-	2	:/home/liang/vimwiki	1	bash	:
+pane	vimwiki	9	:dotfiles	1	:*	1	:/home/liang/dotfiles	0	nvim	:nvim
+pane	vimwiki	9	:dotfiles	1	:*	2	:/home/liang/dotfiles	1	bash	:
+window	_shared	1	0	:	86f5,80x24,0,0{50x24,0,0,0,29x24,51,0,1}
+window	_shared	2	0	:	234a,163x48,0,0{92x48,0,0,2,70x48,93,0,3}
+window	_shared	3	0	:	2353,163x48,0,0{92x48,0,0,4,70x48,93,0,5}
+window	_shared	4	0	:-	8710,80x24,0,0{50x24,0,0,6,29x24,51,0,7}
+window	_shared	5	1	:*	8719,80x24,0,0{50x24,0,0,8,29x24,51,0,9}
+window	vimwiki	1	0	:	6d67,163x48,0,0{92x48,0,0,10,70x48,93,0,11}
+window	vimwiki	8	0	:-	2353,163x48,0,0{92x48,0,0,4,70x48,93,0,5}
+window	vimwiki	9	1	:*	234a,163x48,0,0{92x48,0,0,2,70x48,93,0,3}
+state	vimwiki	

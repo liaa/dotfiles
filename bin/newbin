@@ -4,9 +4,11 @@ createFile() {
   filepath="$HOME/dotfiles/bin/$1"
   echo $filepath
   if [ -f $filepath ]; then
-    echo "file exists"
+    echo "file exists, open it."
+    nvim "$filepath"
   else
-    echo "create file"
+    echo "create and file." 
+    nvim "$filepath"
   fi 
 }
 

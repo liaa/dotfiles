@@ -1,0 +1,4 @@
+#!/bin/sh
+# Lunach google chrome with proxy
+google-chrome-stable --proxy-server="http://localhost:8889"
+

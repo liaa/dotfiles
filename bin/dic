@@ -1,0 +1,15 @@
+#!/bin/sh
+function spell {
+  cat /usr/share/wordnet/dict/words.txt | fzf --preview 'wn {} -over | fold -w $COLUMNS -s' --preview-window=up:70%
+}
+
+function dic {
+  if [ $# -eq 0 ]; then
+    wn `spell` -over
+  else
+    wn $1 -over | fold -w $(tput cols) -s
+  fi
+}
+
+dic
+

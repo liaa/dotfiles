@@ -18,8 +18,8 @@ mod4 + Super_L + a
 mod4 + Super_L + z
 "xvkbd -no-jump-pointer -xsendevent -text '\Cw'"
 mod4 + Super_L + w
-"xvkbd -no-jump-pointer -xsendevent -text '\Cs'"
-mod4 + Super_L + s
+# "xvkbd -no-jump-pointer -xsendevent -text '\Cs'"
+# mod4 + Super_L + s
 "xvkbd -no-jump-pointer -xsendevent -text '\Cq'"
 mod4 + Super_L + q
 
@@ -33,7 +33,7 @@ mod4 + Super_L + q
 # su + n
 # super_l + n
 
-"clipmenu"
+"copyq menu"
 mod4 + Super_L + shift + p
 
 # Increase volume
@@ -55,7 +55,7 @@ XF86PowerOff
 # "flameshot full -c -p ~/Pictures/screenshots"
 # F3
 
-"flameshot gui -p ~/Pictures/screenshots"
+"flameshot gui"
 F4
 
 "dmenuruni"
@@ -63,3 +63,6 @@ mod4 + Super_L + p
 
 "bm"
 mod4 + Super_L + shift + b
+
+"kitty --title notes search-note-page.sh"
+mod4 + Super_L + shift + n

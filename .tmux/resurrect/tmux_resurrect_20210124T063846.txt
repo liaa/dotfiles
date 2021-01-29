@@ -1,0 +1,97 @@
+pane	_shared	1	:knowledge	0	:	1	:/home/liang	0	bash	:
+pane	_shared	1	:knowledge	0	:	2	:/home/liang	1	bash	:
+pane	_shared	3	:vimwiki	0	:	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	_shared	4	:templates	0	:-	1	:/home/liang	0	nvim	:nvim
+pane	_shared	4	:templates	0	:-	2	:/home/liang	1	bash	:
+pane	_shared	5	:server	1	:*	1	:/home/liang	0	nvim	:nvim
+pane	_shared	5	:server	1	:*	2	:/home/liang	1	bash	:
+pane	admin	1	:code	1	:*	1	:/home/liang/workstream/workstream-admin	1	nvim	:nvim
+pane	admin	2	:npm	0	:!-	1	:/home/liang/workstream/workstream-admin	1	npm	:npm
+pane	admin	3	:deployment	0	:	1	:/home/liang/workstream/workstream-admin	1	bash	:
+pane	admin	8	:vimwiki	0	:	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	dotfiles	1	:	1	:*	1	:/home/liang/dotfiles	0	nvim	:nvim
+pane	dotfiles	1	:	1	:*	2	:/home/liang/linux/dwm	1	nvim	:nvim /home/liang/.xbindkeysrc
+pane	dotfiles	8	:vimwiki	0	:-	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	hr	1	:code	1	:*	1	:/home/liang/workstream/workstream-hr	1	nvim	:nvim
+pane	hr	2	:server	0	:-	1	:/home/liang/workstream/workstream-hr	1	npm	:npm
+pane	hr	3	:bash	0	:	1	:/home/liang/workstream/workstream-admin	1	bash	:
+pane	hr	4	:bash	0	:	1	:/home/liang/workstream/workstream-hr	1	bash	:
+pane	hr	8	:vimwiki	0	:	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	jobs	1	:code	1	:*	1	:/home/liang/workstream/workstream-jobs	1	nvim	:nvim
+pane	jobs	2	:server	0	:-	1	:/home/liang/workstream/workstream-jobs	1	bash	:
+pane	jobs	3	:deployment	0	:	1	:/home/liang/workstream/workstream-jobs	1	bash	:
+pane	jobs	4	:bash	0	:	1	:/home/liang/workstream/workstream-jobs	1	bash	:
+pane	jobs	8	:vimwiki	0	:	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	liang	1	:	1	:*	1	:/home/liang/dotfiles/bin	1	bash	:/bin/bash /home/liang/dotfiles/bin/es
+pane	liang	1	:	1	:*	2	:/home/liang/vimwiki	0	bash	:
+pane	liang	8	:vimwiki	0	:-	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	notes	1	:	1	:*	1	:/home/liang/projects/runningdemo.com	0	nvim	:nvim
+pane	notes	1	:	1	:*	2	:/home/liang/vimwiki	1	bash	:
+pane	notes	2	:server	0	:	1	:/home/liang/vimwiki	1	bash	:/bin/bash ./src/build.sh
+pane	notes	2	:server	0	:	2	:/home/liang/projects/runningdemo.com	0	bash	:
+pane	notes	8	:vimwiki	0	:-	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	runningdemoDC	1	:code	0	:-	1	:/home/liang/projects/runningdemo.com	1	nvim	:nvim
+nvim
+pane	runningdemoDC	2	:server	0	:	1	:/home/liang/projects/runningdemo.com	1	bash	:
+pane	runningdemoDC	2	:server	0	:	2	:/home/liang/projects/runningdemo.com	0	bash	:
+pane	runningdemoDC	3	:deployment	0	:	1	:/home/liang/projects/runningdemo.com	1	bash	:
+pane	runningdemoDC	8	:vimwiki	1	:*	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	scripts	1	:	1	:*	1	:/home/liang/dotfiles	0	nvim	:nvim
+pane	scripts	1	:	1	:*	2	:/home/liang/dotfiles/scripts	1	bash	:
+pane	scripts	8	:vimwiki	0	:-	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	vimwiki	1	:	1	:*	1	:/home/liang	1	bash	:
+pane	vimwiki	1	:	1	:*	2	:/home/liang	0	bash	:
+pane	vimwiki	8	:vimwiki	0	:-	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	workstream-admin	1	:	1	:*	1	:/home/liang/workstream/workstream-admin	0	nvim	:nvim README.md
+pane	workstream-admin	1	:	1	:*	2	:/home/liang/workstream/workstream-admin	1	bash	:
+pane	workstream-admin	8	:vimwiki	0	:-	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	workstream-cli	1	:code	1	:*	1	:/home/liang/workstream/workstream-cli	1	bash	:
+pane	workstream-cli	1	:code	1	:*	2	:/home/liang/workstream/workstream-cli	0	bash	:
+pane	workstream-cli	2	:bash	0	:	1	:/home/liang/workstream/workstream-cli	1	bash	:
+pane	workstream-cli	3	:bash	0	:-	1	:/home/liang/workstream/workstream-cli	1	bash	:
+pane	workstream-cli	8	:vimwiki	0	:	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	workstream-hr	1	:	1	:*	1	:/home/liang/workstream/workstream-hr	0	nvim	:nvim README.md
+pane	workstream-hr	1	:	1	:*	2	:/home/liang/workstream/workstream-hr	1	bash	:
+pane	workstream-hr	8	:vimwiki	0	:-	1	:/home/liang/vimwiki	1	nvim	:nvim
+window	_shared	1	0	:	171a,169x55,0,0{95x55,0,0,0,73x55,96,0,1}
+window	_shared	3	0	:	b0c1,152x41,0,0,4
+window	_shared	4	0	:-	1735,169x55,0,0{95x55,0,0,6,73x55,96,0,7}
+window	_shared	5	1	:*	173e,169x55,0,0{95x55,0,0,8,73x55,96,0,9}
+window	admin	1	1	:*	e158,151x55,0,0,29
+window	admin	2	0	:!-	6151,151x55,0,0,31
+window	admin	3	0	:	6152,151x55,0,0,32
+window	admin	8	0	:	b0c1,152x41,0,0,4
+window	dotfiles	1	1	:*	1f4c,94x18,0,0{59x18,0,0,51,34x18,60,0,52}
+window	dotfiles	8	0	:-	b0c1,152x41,0,0,4
+window	hr	1	1	:*	d897,152x41,0,0,28
+window	hr	2	0	:-	d88f,152x41,0,0,20
+window	hr	3	0	:	d893,152x41,0,0,24
+window	hr	4	0	:	5896,152x41,0,0,55
+window	hr	8	0	:	b0c1,152x41,0,0,4
+window	jobs	1	1	:*	e152,151x55,0,0,61
+window	jobs	2	0	:-	6158,151x55,0,0,19
+window	jobs	3	0	:	615a,151x55,0,0,59
+window	jobs	4	0	:	e151,151x55,0,0,60
+window	jobs	8	0	:	b0c1,152x41,0,0,4
+window	liang	1	1	:*	3ab3,207x45,0,0{104x45,0,0,23,102x45,105,0,58}
+window	liang	8	0	:-	b0c1,152x41,0,0,4
+window	notes	1	1	:*	afd5,169x55,0,0{95x55,0,0,10,73x55,96,0,11}
+window	notes	2	0	:	2935,169x55,0,0{84x55,0,0,13,84x55,85,0,14}
+window	notes	8	0	:-	b0c1,152x41,0,0,4
+window	runningdemoDC	1	0	:-	e584,94x39,0,0,25
+window	runningdemoDC	2	0	:	87b0,94x39,0,0{48x39,0,0,37,45x39,49,0,43}
+window	runningdemoDC	3	0	:	6588,94x39,0,0,38
+window	runningdemoDC	8	1	:*	b0c1,152x41,0,0,4
+window	scripts	1	1	:*	d7a7,214x55,0,0{117x55,0,0,49,96x55,118,0,50}
+window	scripts	8	0	:-	b0c1,152x41,0,0,4
+window	vimwiki	1	1	:*	1cca,308x55,0,0{164x55,0,0,53,143x55,165,0,54}
+window	vimwiki	8	0	:-	b0c1,152x41,0,0,4
+window	workstream-admin	1	1	:*	a230,151x55,0,0{86x55,0,0,56,64x55,87,0,57}
+window	workstream-admin	8	0	:-	b0c1,152x41,0,0,4
+window	workstream-cli	1	1	:*	f265,152x41,0,0{87x41,0,0,44,64x41,88,0,45}
+window	workstream-cli	2	0	:	d896,152x41,0,0,46
+window	workstream-cli	3	0	:-	d897,152x41,0,0,47
+window	workstream-cli	8	0	:	b0c1,152x41,0,0,4
+window	workstream-hr	1	1	:*	290f,136x55,0,0{78x55,0,0,33,57x55,79,0,34}
+window	workstream-hr	8	0	:-	b0c1,152x41,0,0,4
+state	hr	

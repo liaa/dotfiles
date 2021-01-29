@@ -1,0 +1,71 @@
+pane	_shared	1	:knowledge	0	:	1	:/home/liang	0	bash	:
+pane	_shared	1	:knowledge	0	:	2	:/home/liang	1	bash	:
+pane	_shared	2	:dotfiles	0	:	1	:/home/liang/dotfiles	0	bash	:
+pane	_shared	2	:dotfiles	0	:	2	:/home/liang/dotfiles	1	bash	:
+pane	_shared	3	:vimwiki	0	:	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	_shared	4	:templates	0	:-	1	:/home/liang	0	nvim	:nvim
+pane	_shared	4	:templates	0	:-	2	:/home/liang	1	bash	:
+pane	_shared	5	:server	1	:*	1	:/home/liang	0	nvim	:nvim
+pane	_shared	5	:server	1	:*	2	:/home/liang	1	bash	:
+pane	admin	1	:code	1	:*	1	:/home/liang/workstream/workstream-admin	1	nvim	:nvim
+pane	admin	2	:npm	0	:-	1	:/home/liang/workstream/workstream-admin	1	npm	:npm
+pane	admin	8	:vimwiki	0	:	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	admin	9	:dotfiles	0	:	1	:/home/liang/dotfiles	0	bash	:
+pane	admin	9	:dotfiles	0	:	2	:/home/liang/dotfiles	1	bash	:
+pane	hr	1	:code	1	:*	1	:/home/liang/workstream/workstream-hr	1	nvim	:nvim
+pane	hr	2	:server	0	:-	1	:/home/liang/workstream/workstream-hr	1	npm	:npm
+pane	hr	3	:bash	0	:	1	:/home/liang/workstream/workstream-hr	1	bash	:
+pane	hr	8	:vimwiki	0	:	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	hr	9	:dotfiles	0	:	1	:/home/liang/dotfiles	0	bash	:
+pane	hr	9	:dotfiles	0	:	2	:/home/liang/dotfiles	1	bash	:
+pane	jobs	1	:	1	:*	1	:/home/liang/workstream/workstream-jobs	0	nvim	:nvim
+pane	jobs	1	:	1	:*	2	:/home/liang/workstream/workstream-jobs	1	bash	:
+pane	jobs	2	:bash	0	:	1	:/home/liang/workstream/workstream-jobs	1	bash	:
+pane	jobs	8	:vimwiki	0	:	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	jobs	9	:dotfiles	0	:-	1	:/home/liang/dotfiles	0	bash	:
+pane	jobs	9	:dotfiles	0	:-	2	:/home/liang/dotfiles	1	bash	:
+pane	liang	1	:	1	:*	1	:/home/liang	1	bash	:
+pane	liang	8	:vimwiki	0	:-	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	liang	9	:dotfiles	0	:	1	:/home/liang/dotfiles	0	bash	:
+pane	liang	9	:dotfiles	0	:	2	:/home/liang/dotfiles	1	bash	:
+pane	notes	1	:	1	:*	1	:/home/liang/projects/runningdemo.com	0	nvim	:nvim
+pane	notes	1	:	1	:*	2	:/home/liang/vimwiki	1	bash	:
+pane	notes	2	:server	0	:	1	:/home/liang/projects/runningdemo.com	1	inotifywait	:inotifywait -e modify ./src/build_bak.sh ./src/build.sh ./src/index.css ./src/_index.html ./src/_post.html ./src/publish.sh /home/liang/vimwiki/index.md /home/liang/vimwiki/listing_temp.md /home/liang/vimwiki/Three things I learnt reviwing my 2020 commit messages.md /home/liang/vimwiki/zett-Build-notes-from-markdown-2021-01-10-1320.md /home/liang/vimwiki/zett-Convert-my-notes-from-markdown-to-html-2021-01-09-2102.md /home/liang/vimwiki/zett-Jump-to-a-dvajs-effect-definition-quickly-2021-01-04-0916.md /home/liang/vimwiki/zett-Lengzhan-2021-01-11-0702.md /home/liang/vimwiki/zett-Less-is-more-2021-01-03-1832.md /home/liang/vimwiki/zett-Make-a-dictionary-with-FZF-and-WordNet-2021-01-02-2038.md /home/liang/vimwiki/zett-Note-taking-in-vim-2021-01-02-0839.md /home/liang/vimwiki/zett-On-beining-Frontend-developer-2021-01-09-1116.md /home/liang/vimwiki/zett-Save-grep-result-to-a-file-2021-01-02-2101.md /home/liang/vimwiki/zett-Spec:-Subscription-start-and-agreement-length-for-customers-2021-01-07-1616.md /home/liang/vimwiki/zett-String-manipulation-in-shell-script-2021-01-10-0702.md /home/liang/vimwiki/zett-Tmux-status-bar-2021-01-03-1632.md
+pane	notes	2	:server	0	:	2	:/home/liang/projects/runningdemo.com	0	bash	:
+pane	notes	8	:vimwiki	0	:-	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	notes	9	:dotfiles	0	:	1	:/home/liang/dotfiles	0	bash	:
+pane	notes	9	:dotfiles	0	:	2	:/home/liang/dotfiles	1	bash	:
+pane	vimwiki	1	:	0	:-	1	:/home/liang/workstream/workstream-hr	1	nvim	:nvim README.md
+pane	vimwiki	1	:	0	:-	2	:/home/liang/workstream/workstream-hr	0	bash	:
+pane	vimwiki	8	:vimwiki	1	:*	1	:/home/liang/vimwiki	1	nvim	:nvim
+pane	vimwiki	9	:dotfiles	0	:	1	:/home/liang/dotfiles	0	bash	:
+pane	vimwiki	9	:dotfiles	0	:	2	:/home/liang/dotfiles	1	bash	:
+window	_shared	1	0	:	171a,169x55,0,0{95x55,0,0,0,73x55,96,0,1}
+window	_shared	2	0	:	eb80,136x55,0,0{78x55,0,0,2,57x55,79,0,3}
+window	_shared	3	0	:	c441,136x55,0,0,4
+window	_shared	4	0	:-	1735,169x55,0,0{95x55,0,0,6,73x55,96,0,7}
+window	_shared	5	1	:*	173e,169x55,0,0{95x55,0,0,8,73x55,96,0,9}
+window	admin	1	1	:*	e258,136x55,0,0,29
+window	admin	2	0	:-	6251,136x55,0,0,31
+window	admin	8	0	:	c441,136x55,0,0,4
+window	admin	9	0	:	eb80,136x55,0,0{78x55,0,0,2,57x55,79,0,3}
+window	hr	1	1	:*	e257,136x55,0,0,28
+window	hr	2	0	:-	e24f,136x55,0,0,20
+window	hr	3	0	:	e253,136x55,0,0,24
+window	hr	8	0	:	c441,136x55,0,0,4
+window	hr	9	0	:	eb80,136x55,0,0{78x55,0,0,2,57x55,79,0,3}
+window	jobs	1	1	:*	efe6,169x55,0,0{95x55,0,0,17,73x55,96,0,27}
+window	jobs	2	0	:	6378,169x55,0,0,19
+window	jobs	8	0	:	c441,136x55,0,0,4
+window	jobs	9	0	:-	eb80,136x55,0,0{78x55,0,0,2,57x55,79,0,3}
+window	liang	1	1	:*	e2f2,125x46,0,0,23
+window	liang	8	0	:-	c441,136x55,0,0,4
+window	liang	9	0	:	eb80,136x55,0,0{78x55,0,0,2,57x55,79,0,3}
+window	notes	1	1	:*	afd5,169x55,0,0{95x55,0,0,10,73x55,96,0,11}
+window	notes	2	0	:	2935,169x55,0,0{84x55,0,0,13,84x55,85,0,14}
+window	notes	8	0	:-	c441,136x55,0,0,4
+window	notes	9	0	:	eb80,136x55,0,0{78x55,0,0,2,57x55,79,0,3}
+window	vimwiki	1	0	:-	6fe3,169x55,0,0{95x55,0,0,25,73x55,96,0,26}
+window	vimwiki	8	1	:*	c441,136x55,0,0,4
+window	vimwiki	9	0	:	eb80,136x55,0,0{78x55,0,0,2,57x55,79,0,3}
+state	admin	hr

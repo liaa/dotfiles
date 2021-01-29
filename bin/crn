@@ -1,0 +1,12 @@
+#!/bin/bash
+echo $1
+title=$(wget -qO- "$1" | perl -l -0777 -ne 'print $1 if /<title.*?>\s*(.*?)\s*<\/title/si')
+
+read -p "Use title \"$title\" (y/n)?" choice
+case "$choice" in 
+  y|Y ) echo "yes";;
+  n|N ) read -p "Title: " title;;
+  * ) echo "invalid";;
+esac
+
+lynx -nolist -dump $1 | nvim  "+Zet [reference] $title"

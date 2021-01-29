@@ -26,5 +26,5 @@ choice=$(load | dmenu -i -l 15 -p "Add/Open bookmark:")
 echo $choice
 case "$choice" in
   Add) dmenu-bm-add.sh ;;
-  *) xdg-open ${bmarray[$choice]} ;;
+  *) firefox ${bmarray[$choice]} ;;
 esac

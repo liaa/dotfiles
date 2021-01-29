@@ -8,6 +8,10 @@ if [ -d "/home/liang/dotfiles/bin" ]; then
     PATH="$PATH:/home/liang/dotfiles/bin"
 fi
 
+if [ -d "/home/liang/dotfiles/bin/statusbar" ]; then
+    PATH="$PATH:/home/liang/dotfiles/bin/statusbar"
+fi
+
 # source the bash_profile
 # [ -r /home/liang/.bash_profile ] && source /home/liang/.bash_profile
 
@@ -38,17 +42,28 @@ xinput --set-prop "Microsoft Microsoft® 2.4GHz Transceiver v9.0 Mouse" "libinpu
 # start xkeybinds, will ready configure of ~/.xbindkeysrc
 xbindkeys &
 
-# export TMPDIR="/home/liang/.config/clipmenu"
-# clipmenud &
-
-# workrave &
-
 # fonts
-# xset +fp /home/liang/.fonts
-# xset fp rehash
+xset +fp /home/liang/fonts
+xset fp rehash
 
-# dwm
-# dwm statusbar - show current date and time
-# sh ~/dwm-bar/dwm_bar.sh &
+# status bar
+sh ~/linux/dwm-bar/dwm_bar.sh &
+
+# start pulseaudio
+pulseaudio --start &
+
+# start at login applications
+flameshot &
+copyq &
+workrave &
+smerge &
+qv2ray &
+picom --config ~/dotfiles/.config/picom.conf &
+
+# set the background
+feh --bg-tile --randomize ~/dotfiles/backgrounds/* &
+
+# load Xresource
+xrdb -merge ~/.Xresources &
 
 while true;  do  dwm > /dev/null; done;

@@ -1,5 +1,5 @@
 #!/bin/sh
 
-autorandr -l lg
+autorandr -l mac 
 # brightness 0.8 && xrandr --output DP-1 --mode 3440x1440
 # autorandr lg && brightness 0.8 && xrandr --output DP-1 --mode 2560x1080

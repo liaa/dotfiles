@@ -10,8 +10,11 @@ declare -A links=(
   ["phil"]="https://us02web.zoom.us/j/5703118073?pwd=ZENaNmRzVEcraEN5d2hIVTRNbzRWQT09"
   ["ryan"]="https://us04web.zoom.us/j/6290536179?pwd=L01Sb2U0S3BrSE5BMktwQzh0N0hlQT09 " 
   ["vincent"]="https://us04web.zoom.us/j/9182000449?pwd=bmpVR05EUHY3VnVHNGVyOFJzSVRBdz09"
-  ["windy"]="https://zoom.com.cn/j/9286691117?pwd=a0VYelBVTEpyLzRjSTlUWmJMMUc1dz09"
+  ["windy"]="https://zoom.us/j/5906320823?pwd=bjMzeldMRlZ6b0c0eHBwN1k5R0d5dz09"
   ["rob"]="https://zoom.us/j/6013786371"
+  ["justin"]="https://nus-sg.zoom.us/j/81707973877?pwd=YUI1ckFNUTZ5aEt4WEpPUXBTL0dyZz09"
+  ["t1"]="https://us02web.zoom.us/j/5811711488"
+  
 # Sihao
 # Snow
 # Lucas
@@ -20,18 +23,10 @@ declare -A links=(
 # Huibin
 )
 
-quit() {
-  # pkill zoom
-  pkill -9 firefox
-}
-
 main() {
   if [[ -v "links[$1]" ]] ; then
-    quit
     echo ${links[$1]} | xclip
-    firefox --headless -url ${links[$1]}
-  else
-    quit
+    zoom --url=${links[$1]}
   fi 
 }
 

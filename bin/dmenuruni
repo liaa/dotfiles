@@ -2,7 +2,7 @@
 # dmenu_run improved
 # if a command ends with "!", it is started in term.
 
-termcmd="st -e"
+termcmd="kitty -c st_float -e"
 test -s $HOME/.dmenurc && . $HOME/.dmenurc
 
 cmd="$(dmenu_path | dmenu $@)"
