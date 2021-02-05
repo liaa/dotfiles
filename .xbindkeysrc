@@ -66,3 +66,6 @@ mod4 + Super_L + shift + b
 
 "kitty --title notes search-note-page.sh"
 mod4 + Super_L + shift + n
+
+"kitty --title dic dic"
+mod4 + Super_L + shift + d

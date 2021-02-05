@@ -1,5 +1,6 @@
 #!/bin/bash
 
+pkill zoom
 declare -A links=(
   ["david"]="https://us04web.zoom.us/j/8625747567?pwd=SkVTWHEyaTJLcEVhSks4cG8zNjNGUT09"
   ["demo"]="https://us04web.zoom.us/j/8839738908?pwd=Z2JtWnAzVVVwc21BQm9hWXRuUlFjUT09"
