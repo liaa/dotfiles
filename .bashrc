@@ -51,3 +51,4 @@ fi
 git config --global push.default current
 
 . ~/dotfiles/bin/z.sh
+alias dotfiles='/usr/bin/git --git-dir=/home/liang/.dotfiles/ --work-tree=/home/liang'

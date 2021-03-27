@@ -2,11 +2,12 @@
 
 cd "$HOME/dotfiles/bin"
 
-file=$(rg --files | fzf --bind=enter:replace-query+print-query)
-echo $file
-if [[ -n "$file" ]]
-then
-  nvim "$file"
+if [[ -f "$1" ]]; then
+  nvim "$1"
 else
-  echo $file
+  file=$(rg --files | fzf --bind=enter:replace-query+print-query)
+  if [[ -n "$file" ]]; then
+    nvim "$file"
+  fi
 fi
+

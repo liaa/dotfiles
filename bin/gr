@@ -1,0 +1,11 @@
+#!/bin/bash
+
+branch="$1"
+if [[ -z $branch ]]; then
+  echo 'please input the branch name'
+  exit
+fi
+
+git fetch
+git checkout $branch
+git reset --hard origin/"$branch"

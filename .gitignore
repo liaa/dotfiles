@@ -2,3 +2,4 @@ node_modules/
 bin/pandoc
 */pandoc
 .tmux/resurrect/
+.tmux/resurrect/**

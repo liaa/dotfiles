@@ -15,6 +15,7 @@ fi
 # for mac
 # setxkbmap -option ctrl:nocaps,altwin:swap_lalt_lwin
 # for external keyboard
+hidp &
 setxkbmap -option ctrl:nocaps
 
 # Make short-pressed Ctrl behave like Escape:

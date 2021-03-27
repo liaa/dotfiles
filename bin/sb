@@ -1,0 +1,18 @@
+#!/bin/bash
+
+links=(
+"https://www.jiumodiary.com"
+"http://www.ferebook.com/books/"
+"https://www.pdfdrive.com/search?q={query}"
+"http://libgen.rs/search.php?req={query}"
+"https://libgen.me/search/all?search={query}"
+)
+
+for link in ${links[@]}; do
+  if [[ "$link" == *"{query}"* ]]; then
+    firefox --new-tab "$(echo ${link/\{query\}/$*})"
+  else
+    firefox --new-tab $link
+  fi
+done
+

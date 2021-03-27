@@ -9,19 +9,19 @@ declare -A links=(
   ["lei"]="https://zoom.us/j/4351626850"
   ["max"]="https://zoom.us/j/8944427247"
   ["phil"]="https://us02web.zoom.us/j/5703118073?pwd=ZENaNmRzVEcraEN5d2hIVTRNbzRWQT09"
-  ["ryan"]="https://us04web.zoom.us/j/6290536179?pwd=L01Sb2U0S3BrSE5BMktwQzh0N0hlQT09 " 
+  ["ryan"]="https://us04web.zoom.us/j/6290536179?pwd=L01Sb2U0S3BrSE5BMktwQzh0N0hlQT09" 
   ["vincent"]="https://us04web.zoom.us/j/9182000449?pwd=bmpVR05EUHY3VnVHNGVyOFJzSVRBdz09"
   ["windy"]="https://zoom.us/j/5906320823?pwd=bjMzeldMRlZ6b0c0eHBwN1k5R0d5dz09"
   ["rob"]="https://zoom.us/j/6013786371"
   ["justin"]="https://nus-sg.zoom.us/j/81707973877?pwd=YUI1ckFNUTZ5aEt4WEpPUXBTL0dyZz09"
+  ["daniel"]="https://zoom.us/j/8218991289?pwd=WlkyRkFJMTNXN0pmbGZIQ0ttUksyZz09"
   ["t1"]="https://us02web.zoom.us/j/5811711488"
+  ["sihao"]="https://us02web.zoom.us/j/81009723652?pwd=Q1RNMEFJVW40TGRjNW5PQXZCU1AzUT09"
+
   
 # Sihao
 # Snow
 # Lucas
-# Daniel
-# Vincent
-# Huibin
 )
 
 main() {

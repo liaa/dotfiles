@@ -5,8 +5,12 @@ function spell {
 
 function dic {
   if [ $# -eq 0 ]; then
-    wn `spell` -over
+    result=$(wn `spell` -over)
+    echo ----
+    echo $result
+
   else
+    echo 'that'
     wn $1 -over | fold -w $(tput cols) -s
   fi
 }

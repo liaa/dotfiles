@@ -1,7 +1,3 @@
 #!/bin/bash
-zet() {
-  nvim -c "Zet $1"
-}
 
-zet "$1"
-
+nvim "+Zet $*"

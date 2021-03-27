@@ -12,6 +12,7 @@ if [ -d "/home/liang/dotfiles/bin/statusbar" ]; then
     PATH="$PATH:/home/liang/dotfiles/bin/statusbar"
 fi
 
+hidpi & 
 # source the bash_profile
 # [ -r /home/liang/.bash_profile ] && source /home/liang/.bash_profile
 
