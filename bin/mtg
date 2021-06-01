@@ -6,6 +6,7 @@ declare -A links=(
   ["demo"]="https://us04web.zoom.us/j/8839738908?pwd=Z2JtWnAzVVVwc21BQm9hWXRuUlFjUT09"
   ["desmond"]="https://us02web.zoom.us/j/5811711488?pwd=MUZXeVh6NkZoWGd1RWtUUUhBZEdOZz09"
   ["huibin"]="https://zoom.us/j/4311416712?pwd=UmtDWEFmdHlLYmJQaExNdzZHalJTUT09"
+  ['hui']="https://zoom.us/j/99982385530?pwd=V3Bxc1dQWVlIemhwcDRRTGJrRXowZz09"
   ["lei"]="https://zoom.us/j/4351626850"
   ["max"]="https://zoom.us/j/8944427247"
   ["phil"]="https://us02web.zoom.us/j/5703118073?pwd=ZENaNmRzVEcraEN5d2hIVTRNbzRWQT09"
@@ -16,12 +17,11 @@ declare -A links=(
   ["justin"]="https://nus-sg.zoom.us/j/81707973877?pwd=YUI1ckFNUTZ5aEt4WEpPUXBTL0dyZz09"
   ["daniel"]="https://zoom.us/j/8218991289?pwd=WlkyRkFJMTNXN0pmbGZIQ0ttUksyZz09"
   ["t1"]="https://us02web.zoom.us/j/5811711488"
-  ["sihao"]="https://us02web.zoom.us/j/81009723652?pwd=Q1RNMEFJVW40TGRjNW5PQXZCU1AzUT09"
+  ["sihao"]="https://us02web.zoom.us/j/89053047530?pwd=eFd1RU4wQnRCb25VUDhzUmVRaCtjZz09"
+  ["lucas"]="https://us04web.zoom.us/j/4232628152?pwd=R2dXa2gxTXVFak5DSUZ6WVJmbFl6dz09"
 
   
-# Sihao
 # Snow
-# Lucas
 )
 
 main() {

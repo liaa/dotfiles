@@ -1,0 +1,3 @@
+#/bin/bash
+
+setxkbmap -option && xcape -e 'Control_L=Escape' && setxkbmap -option ctrl:nocaps

@@ -1,0 +1,6 @@
+#!/bin/bash
+idle=$(gdbus call -e -d org.workrave.Workrave -o /org/workrave/Workrave/Core -m org.workrave.CoreInterface.GetTimerIdle 'restbreak' | sed 's/[^0-9]//g') 
+restbreak=$(gdbus call -e -d org.workrave.Workrave -o /org/workrave/Workrave/Core -m org.workrave.CoreInterface.GetTimerElapsed 'restbreak' | sed 's/[^0-9]//g')
+
+echo "$idle/$restbreak"
+

@@ -1,0 +1,9 @@
+#!/bin/bash
+if ls /dev/input/by-id/*-kbd | grep Microsoft > /dev/null
+then 
+  echo "kb1" | systemd-cat
+  setxkbmap -option ctrl:nocaps,altwin:swap_lalt_lwin && xcape -e 'Control_L=Escape'
+else
+  echo "kb0" | systemd-cat
+  setxkbmap -option && xcape -e 'Control_L=Escape' && setxkbmap -option ctrl:nocaps
+fi

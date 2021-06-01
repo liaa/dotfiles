@@ -13,7 +13,12 @@ kitty @ set-spacing padding=12
 
 if [[ $file =~ \.md ]]; then
   # open exiting note
-  echo $file | xargs -d ':' sh -c 'nvim "+normal $1G" "$0"'
+  echo $file
+  if [[ $file =~ Planing-2021-02-28-1055* ]]; then
+    echo $file | xargs -d ':' sh -c 'nvim "$0"'
+  else
+    echo $file | xargs -d ':' sh -c 'nvim "+normal $1G" "$0"'
+  fi
 else
   # create a new note
   zet "$file"

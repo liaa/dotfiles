@@ -7,6 +7,9 @@ alias gpull="hsp git pull"
 alias gpush="hsp git push"
 alias gcb="git checkout -b"
 
+# freecad
+alias freecad="./linux/FreeCAD_0.19-24276-Linux-Conda_glibc2.12-x86_64.AppImage"
+
 # neovim
 alias vim="nvim"
 ln -sf ~/.vim ~/.config/nvim
@@ -23,11 +26,6 @@ alias hsp="https_proxy=http://localhost:8889"
 
 # Unset proxy
 alias unsetProxy="unset HTTP_PROXY && unset HTTPS_PROXY && unset http_proxy && unset https_proxy"
-
-# switch keyboard
-alias kb0="setxkbmap -option && xcape -e 'Control_L=Escape' && nocaps" 
-alias kb1="setxkbmap -option ctrl:nocaps,altwin:swap_lalt_lwin && xcape -e 'Control_L=Escape'"
-alias nocaps="setxkbmap -option ctrl:nocaps"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -52,3 +50,6 @@ git config --global push.default current
 
 . ~/dotfiles/bin/z.sh
 alias dotfiles='/usr/bin/git --git-dir=/home/liang/.dotfiles/ --work-tree=/home/liang'
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
