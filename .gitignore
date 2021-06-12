@@ -3,3 +3,5 @@ bin/pandoc
 */pandoc
 .tmux/resurrect/
 .tmux/resurrect/**
+newsboat/cache.db
+newsboat/history.cmdline

@@ -2,7 +2,7 @@ export EDITOR=nvim
 export BROWSER="firefox"
 
 # git alias
-alias prc="hsp gh pr create"
+alias prc="gh pr create"
 alias gpull="hsp git pull"
 alias gpush="hsp git push"
 alias gcb="git checkout -b"
@@ -53,3 +53,7 @@ alias dotfiles='/usr/bin/git --git-dir=/home/liang/.dotfiles/ --work-tree=/home/
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# [ -s ~/.luaver/luaver ] && . ~/.luaver/luaver
+# [ -s ~/.luaver/completions/luaver.bash ] && . ~/.luaver/completions/luaver.bash
+
