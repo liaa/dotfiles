@@ -11,7 +11,8 @@ alias gcb="git checkout -b"
 alias freecad="./linux/FreeCAD_0.19-24276-Linux-Conda_glibc2.12-x86_64.AppImage"
 
 # neovim
-alias vim="nvim"
+alias vim="/squashfs-root/AppRun"
+alias nvim="/squashfs-root/AppRun"
 ln -sf ~/.vim ~/.config/nvim
 ln -sf ~/.vimrc ~/.vim/init.vim
 
